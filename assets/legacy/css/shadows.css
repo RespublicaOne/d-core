@@ -1,0 +1,17 @@
+.d-core-n-shadow_layer-1 {
+    box-shadow: 0 3px 5px rgba(5,5,5,1);
+}
+.d-core-n-shadow_layer-2 {
+    box-shadow: 0 4px 7px rgba(5,5,5,1);
+}
+
+.d-core-s-shadow_layer-1 {
+    box-shadow: 0 -2px 3px rgba(5,5,5,1);
+}
+.d-core-s-shadow_layer-2 {
+    box-shadow: 0 -4px 7px rgba(5,5,5,1);
+}
+
+.d-core-inner-n-shadow_layer-1 {
+    box-shadow: 0 3px 5px rgba(5,5,5,1) inset;
+}

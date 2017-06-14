@@ -1,0 +1,117 @@
+:root {
+    --dc-shadow__color: rgba(5,5,5,0.9);
+    --dc-shadow__t1-size: 3px;
+    --dc-shadow__t1-offset: 2px;
+    --dc-shadow__t1-onset: -2px;
+    --dc-shadow__t2-size: 7px;
+    --dc-shadow__t2-offset: 4px;
+    --dc-shadow__t2-onset: -4px;
+    --dc-shadow__t3-size: 11px;
+    --dc-shadow__t3-offset: 6px;
+    --dc-shadow__t3-onset: -6px;
+}
+
+.dc-shadow_t1-north {
+    box-sizing: border-box;
+    box-shadow: 0 var(--dc-shadow__t1-offset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-north {
+    box-sizing: border-box;
+    box-shadow: 0 var(--dc-shadow__t2-offset) var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-north {
+    box-sizing: border-box;
+    box-shadow: 0 var(--dc-shadow__t3-offset) var(--dc-shadow__t3-size) var(--dc-shadow__color);
+}
+
+.dc-shadow_t1-south {
+    box-sizing: border-box;
+    box-shadow: 0 var(--dc-shadow__t1-onset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-south {
+    box-sizing: border-box;
+    box-shadow: 0 var(--dc-shadow__t2-onset) var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-south {
+    box-sizing: border-box;
+    box-shadow: 0 var(--dc-shadow__t2-onset) var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+
+
+.dc-shadow_t1-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t1-onset) 0 var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-east {
+    box-sizing: border-box;
+    box-shadow:  var(--dc-shadow__t2-onset) 0 var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t3-onset) 0 var(--dc-shadow__t3-size) var(--dc-shadow__color);
+}
+
+.dc-shadow_t1-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t1-offset) 0 var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t2-offset) 0 var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t3-offset) 0 var(--dc-shadow__t3-size) var(--dc-shadow__color);
+}
+
+.dc-shadow_t1-north-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t1-offset) var(--dc-shadow__t1-offset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-north-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t2-offset) var(--dc-shadow__t2-offset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-north-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t3-offset) var(--dc-shadow__t3-offset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+
+.dc-shadow_t1-north-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t1-onset) var(--dc-shadow__t1-offset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-north-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t2-onset) var(--dc-shadow__t2-offset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-north-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t3-onset) var(--dc-shadow__t3-offset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+
+.dc-shadow_t1-south-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t1-offset) var(--dc-shadow__t1-onset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-south-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t2-offset) var(--dc-shadow__t2-onset) var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-south-west {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t3-offset) var(--dc-shadow__t2-onset) var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+
+.dc-shadow_t1-south-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t1-onset) var(--dc-shadow__t1-onset) var(--dc-shadow__t1-size) var(--dc-shadow__color);
+}
+.dc-shadow_t2-south-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t2-onset) var(--dc-shadow__t2-onset) var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}
+.dc-shadow_t3-south-east {
+    box-sizing: border-box;
+    box-shadow: var(--dc-shadow__t3-onset) var(--dc-shadow__t2-onset) var(--dc-shadow__t2-size) var(--dc-shadow__color);
+}

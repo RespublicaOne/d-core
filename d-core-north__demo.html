@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D-Core Canvas Demo</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/d-core/css/page__canvas.css">
+    <link rel="stylesheet" href="assets/d-core/css/page__shadows.css">
+    <link rel="stylesheet" href="assets/d-core/css/blocks__fixed-side.css">
+    <link rel="stylesheet" href="assets/d-core/css/blocks__content-box.css">
+    <link rel="stylesheet" href="assets/d-core/css/colours__background.css">
+    <link rel="stylesheet" href="assets/d-core/css/layouts__ribbon.css">
+    <link rel="stylesheet" href="assets/d-core/css/layouts__status.css">
+    <link rel="stylesheet" href="assets/d-core/css/blocks__logo-box.css">
+    <link rel="stylesheet" href="assets/d-core/css/blocks__title-box.css">
+    <link rel="stylesheet" href="assets/d-core/css/blocks__auth-box.css">
+</head>
+<body>
+
+    <!--NORTH static panel-->
+    <div class="dc-north dc-bgcolor_darkgray dc-shadow_t3-north dc-layout-ribbon" id="north">
+
+        <div class="dc-layout-ribbon__item dc-logo-box" id="logo-block">
+            <p class="dc-logo-box__title" id="logo-block__title">СоКоБан-К</p>
+            <p class="dc-logo-box__subtitle" id="logo-block__subtitle">Тут будет девиз</p>
+        </div>
+
+        <div class="dc-layout-ribbon__stretch"></div>
+
+        <div class="dc-layout-ribbon__item dc-title-box" id="title-block">
+            <div class="dc-title-box__title" id="title-block__title">
+                Архив.
+            </div>
+            <div class="dc-title-box__subtitle" id="title-block__subtitle">
+                Версия 0.2
+            </div>
+        </div>
+
+        <div class="dc-layout-ribbon__stretch"></div>
+
+        <div class="dc-layout-ribbon__item dc-auth-box" id="auth-block">
+            <div class="dc-auth-box__name" id="auth-block__username">NonameUser</div>
+            <div class="dc-auth-box__icon" id="auth-block__icon"></div>
+        </div>
+    </div>
+
+    <!--Content canvas-->
+    <div class="dc-canvas dc-canvas-flex dc-canvas-flex_row">
+                <div class="dc-bgcolor_lightgray" style="flex-basis: 200px;">wheat</div>
+                <div class="dc-bgcolor_paper dc-canvas-flex-item_stretched dc-shadow_t2-east">red</div>
+    </div>
+</body>
+</html>

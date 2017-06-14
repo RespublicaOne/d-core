@@ -1,0 +1,26 @@
+:root {
+    --d-core-label__light-color: #EEEEEE;
+    --d-core-label__dark-color: #333333;
+    --d-core-label__title-font: 600 16px 'Ubuntu', sans-serif;
+    --d-core-label__subtitle-font: 300 14px 'Ubuntu', sans-serif;
+}
+
+.d-core-label_light {
+    color: var(--d-core-label__light-color);
+}
+
+.d-core-label_dark {
+    color: var(--d-core-label__dark-color);
+}
+
+.d-core-label__title {
+    display: block;
+    font: var(--d-core-label__title-font);
+}
+.d-core-label__subtitle {
+    font: var(--d-core-label__subtitle-font);
+}
+
+.d-core-label_right {
+    text-align: right;
+}

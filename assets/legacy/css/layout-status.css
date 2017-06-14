@@ -1,0 +1,16 @@
+.d-core-layout__status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2px 10px 2px 10px;
+    min-height: 10px;
+}
+
+.d-core-layout__status-item {
+    padding: 0 5px 0 5px;
+}
+
+.d-core-layout__status-stretch {
+    flex-grow: 1;
+}

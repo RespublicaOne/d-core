@@ -1,0 +1,19 @@
+:root {
+    --dc-logo__title-color: #EEEEEE;
+}
+
+.dc-auth-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dc-auth-box__name {
+    display: block;
+    font: 600 16px 'Ubuntu', sans-serif;
+    color: var(--dc-logo__title-color);
+}
+.dc-auth-box__icon {
+    flex-basis: 25px;
+}

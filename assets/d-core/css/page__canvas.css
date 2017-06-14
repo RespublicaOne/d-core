@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+
+.dc-canvas {
+    min-height: 100%;
+    width: 100%;
+}
+
+.dc-canvas-flex {
+    display: flex;
+}
+
+.dc-canvas-flex_row {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.dc-canvas-flex_column {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.dc-canvas-flex-item_centered {
+    margin: auto;
+}
+.dc-canvas-flex-item_stretched {
+    flex-grow: 1;
+}

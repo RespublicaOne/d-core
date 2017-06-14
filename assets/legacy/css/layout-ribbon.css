@@ -1,0 +1,15 @@
+.d-core-layout__ribbon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 5px 10px 5px 10px;
+    min-height: 50px;
+}
+
+.d-core-layout__ribbon-item {
+    padding: 5px 10px 5px 10px;
+}
+.d-core-layout__ribbon-stretch {
+    flex-grow: 1;
+}

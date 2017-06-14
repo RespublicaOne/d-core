@@ -1,0 +1,18 @@
+:root {
+    --dc-logo__title-color: #EEEEEE;
+}
+
+.dc-logo-box {
+    display: block;
+}
+
+.dc-logo-box__title {
+    display: block;
+    font: 600 16px 'Ubuntu', sans-serif;
+    color: var(--dc-logo__title-color);
+}
+.dc-logo-box__subtitle {
+    display: block;
+    font: 400 14px 'Ubuntu Condensed', sans-serif;
+    color: var(--dc-logo__title-color);
+}

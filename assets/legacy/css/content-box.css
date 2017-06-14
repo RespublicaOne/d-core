@@ -1,0 +1,17 @@
+:root {
+    --content-box__padding: 5px 10px 5px 10px;
+}
+
+.content-box {
+    box-sizing: border-box;
+    display: block;
+    padding: var(--content-box__padding);
+}
+
+.content-box_transparent {
+    background-color: transparent;
+}
+
+.content-box_black {
+    background-color: #333333;
+}

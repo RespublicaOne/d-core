@@ -1,0 +1,16 @@
+.dc-layout-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2px 10px 2px 10px;
+    min-height: 10px;
+}
+
+.dc-layout-status__item {
+    padding: 0 5px 0 5px;
+}
+
+.dc-layout-status__stretch {
+    flex-grow: 1;
+}

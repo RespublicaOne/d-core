@@ -1,0 +1,24 @@
+@import "colours__palette.css";
+
+.dc-bgcolor_lightgray {
+    background-color: var(--dc-colour__lightgray);
+}
+.dc-bgcolor_darkgray {
+    background-color: var(--dc-colour__darkgray);
+}
+
+.dc-bgcolor_white {
+    background-color: var(--dc-colour__white);
+}
+
+.dc-bgcolor_paper {
+    background-color: var(--dc-colour__paper);
+}
+
+.dc-bgcolor_black {
+    background-color: var(--dc-colour__black);
+}
+
+.dc-bgcolor_orange {
+    background-color: var(--dc-colour__orange);
+}

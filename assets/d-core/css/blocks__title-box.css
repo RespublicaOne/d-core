@@ -1,0 +1,22 @@
+:root {
+    --dc-title__title-color: #EEEEEE;
+}
+
+.dc-title-box {
+    display: block;
+}
+
+.dc-title-box__title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font: 600 18px 'Ubuntu', sans-serif;
+    color: var(--dc-logo__title-color);
+}
+.dc-title-box__subtitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font: 400 16px 'Ubuntu Condensed', sans-serif;
+    color: var(--dc-logo__title-color);
+}

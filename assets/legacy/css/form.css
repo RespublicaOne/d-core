@@ -1,0 +1,33 @@
+.d-core-form {
+    display: table;
+}
+
+.d-core-form__row {
+    display: table-row;
+}
+
+.d-core-form__caption {
+    display: table-cell;
+    padding: 2px 10px 2px 5px;
+}
+
+.d-core-form__value {
+    display: table-cell;
+    padding: 2px 10px 2px 5px;
+}
+
+.d-core-form__button {
+    background-color: orangered;
+    border: none;
+    color: #EEEEEE;
+    margin: 10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.d-core-form__button:hover {
+    box-shadow: 2px 4px 7px rgba(5,5,5,1);
+}
+
+.d-core-form__button:active {
+    box-shadow: 1px 2px 4px rgba(5,5,5,1);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D-Core Layout demo</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/legacy/css/canvas.css">
+    <link rel="stylesheet" href="assets/legacy/css/shadows.css">
+    <link rel="stylesheet" href="assets/legacy/css/fixed-sides.css">
+    <link rel="stylesheet" href="assets/legacy/css/layout-ribbon.css">
+    <link rel="stylesheet" href="assets/legacy/css/layout-status.css">
+    <link rel="stylesheet" href="assets/legacy/css/label.css">
+    <link rel="stylesheet" href="assets/legacy/css/content-box.css">
+    <link rel="stylesheet" href="assets/legacy/css/form.css">
+</head>
+<body>
+    <div class="d-core-north d-core-n-shadow_layer-2 d-core-layout__ribbon">
+        <div class="d-core-layout__ribbon-item">
+            <div class="d-core-label__title d-core-label_light">Title1</div>
+            <div class="d-core-label__subtitle d-core-label_light">Subtitle</div>
+        </div>
+        <div class="d-core-layout__ribbon-stretch"></div>
+        <div class="d-core-layout__ribbon-item">
+            <div class="d-core-label__title d-core-label_light">Title2</div>
+            <div class="d-core-label__subtitle d-core-label_light">Subtitle</div>
+        </div>
+    </div>
+    <div class="d-core-south d-core-layout__status d-core-inner-n-shadow_layer-1">
+        <div class="d-core-layout__status-item">Status goes here:</div>
+        <div class="d-core-layout__status-item">status</div>
+        <div class="d-core-layout__status-item">0.001</div>
+        <div class="d-core-layout__status-stretch"></div>
+        <div class="d-core-layout__status-item">EndOfStatus:</div>
+        <div class="d-core-layout__status-item">Value</div>
+    </div>
+    <div class="d-core-canvas d-core-canvas_flex">
+        <div class="content-box content-box_transparent d-core-n-shadow_layer-1" style="margin: auto;">
+            <div class="d-core-label__title d-core-label_light">Авторизация</div>
+            <div class="d-core-label__subtitle d-core-label_light">Введите логин с паролем</div>
+            <form method="post" class="d-core-form">
+                <div class="d-core-form__row">
+                    <div class="d-core-form__caption"><div class="d-core-label__title d-core-label_dark d-core-label_right">Логин:</div></div>
+                    <div class="d-core-form__value"><input type="text" id="login_text"/></div>
+                </div>
+                <div class="d-core-form__row">
+                    <div class="d-core-form__caption"><div class="d-core-label__title d-core-label_dark d-core-label_right">Пароль:</div></div>
+                    <div class="d-core-form__value"><input type="password" id="password_text"/></div>
+                </div>
+                <div class="d-core-form__row">
+                    <div class="d-core-form__caption"></div>
+                    <div class="d-core-form__value"><input class="d-core-form__button d-core-n-shadow_layer-1" type="submit" value="Логин"/></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+:root {
+    --d-core-canvas__bg-color: wheat;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.d-core-canvas {
+    min-height: 100%;
+    width: 100%;
+    background-color: var(--d-core-canvas__bg-color);
+}
+
+.d-core-canvas_flex {
+    display: flex;
+}

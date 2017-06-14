@@ -1,0 +1,26 @@
+:root {
+    --d-core-north__bg-color: darkslategray;
+    --d-core-north__heigth: 10px;
+    --d-core-south__bg-color: orangered;
+    --d-core-south__heigth: 10px;
+}
+
+.d-core-north {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: var(--d-core-north__bg-color);
+    min-height: var(--d-core-north__heigth);
+}
+
+.d-core-south {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--d-core-south__bg-color);
+    min-height: var(--d-core-south__heigth);
+}
