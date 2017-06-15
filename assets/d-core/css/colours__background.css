@@ -22,3 +22,7 @@
 .dc-bgcolor_orange {
     background-color: var(--dc-colour__orange);
 }
+
+.dc-bgolor_green {
+    background-color: var(--dc-colour__green);
+}

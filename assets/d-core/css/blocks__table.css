@@ -1,0 +1,95 @@
+.dc-table {
+    display: table;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 3px 5px rgba(5,5,5,0.9);
+}
+
+.dc-table__title {
+    font: 600 16px 'Ubuntu', sans-serif;
+    color: #333333;
+    text-align: left;
+    text-indent: 25px;
+    padding: 5px;
+    float: left;
+}
+.dc-table__subtitle {
+    font: 600 16px 'Ubuntu', sans-serif;
+    color: #333333;
+    text-align: left;
+    text-indent: 25px;
+    padding: 5px;
+}
+
+
+.dc-table__header {
+    display: table-header-group;
+    background-color: #333333;
+    min-height: 30px;
+}
+.dc-table__header-cell {
+    display: table-cell;
+    text-align: center;
+    font: 600 16px 'Ubuntu', sans-serif;
+    color: #D2D7D3;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+}
+
+.dc-table__body {
+    display: table-row-group;
+    background-color: #AEA79F;
+}
+.dc-table__row {
+    display: table-row;
+    border-top: 1px #333333 dotted;
+}
+.dc-table__row:first-child {
+    border-top: none;
+}
+
+.dc-table__row:hover {
+    background-color: #999999;
+    box-shadow: 2px 2px 3px rgba(5,5,5,0.9) inset, -2px -2px 3px rgba(5,5,5,0.4) inset;
+}
+.dc-table__cell {
+    display: table-cell;
+    font: 400 14px 'Ubuntu', sans-serif;
+    color: #333333;
+    border-top: inherit;
+    border-left: 1px #333333 solid;
+    padding: 9px 15px 9px 15px;
+}
+.dc-table__cell:first-child {
+    border-left: none;
+}
+.dc-table__cell_first-row {
+    border-top: none;
+}
+
+.dc-table-cell_destruct:hover {
+    background-color: #E95420;
+}
+.dc-table-cell_construct:hover {
+    background-color: darkslategray;
+}
+
+.dc-table-cell_center {
+    text-align: center;
+}
+.dc-table-cel_left {
+    text-align: left;
+}
+.dc-table-cell_right {
+    text-align: right;
+}
+.dc-table-cell_justify {
+    text-align: justify;
+}
+
+.dc-table__footer {
+    display: table-footer-group;
+}
+.dc-table__footer-cell {
+    display: table-cell;
+}
