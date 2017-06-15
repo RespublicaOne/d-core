@@ -1,0 +1,13 @@
+.dc-checkbox {
+    margin: auto;
+    width: 16px; /*or your image's width*/
+    height: 16px; /*or your image's height*/
+    display: block;
+    box-sizing: border-box;
+    background: transparent url(assets/d-core/img/checkbox_unchecked.svg) no-repeat;
+}
+
+.dc-checkbox_checked {
+    background: wheat url(assets/d-core/img/checkbox_checked.svg) no-repeat;
+}
+
