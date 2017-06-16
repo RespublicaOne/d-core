@@ -1,0 +1,19 @@
+.dc-clickable {
+    display: block;
+    box-shadow: 2px 2px 3px rgba(5,5,5,0.9);
+    padding: 5px 10px 5px 10px;
+}
+
+.dc-clickable:active {
+    box-shadow: 1px 1px 2px rgba(5,5,5,0.9);
+}
+
+
+.dc-clickable_destruct:hover {
+    background-color: #E95420;
+    color: #EEEEEE;
+}
+.dc-clickable_construct:hover {
+    background-color: darkslategray;
+    color: #EEEEEE;
+}

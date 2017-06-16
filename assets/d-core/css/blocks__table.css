@@ -33,7 +33,7 @@
     font: 600 16px 'Ubuntu', sans-serif;
     color: #D2D7D3;
     text-align: center;
-    padding: 10px 15px 10px 15px;
+    padding: 10px;
 }
 
 .dc-table__body {
@@ -65,13 +65,6 @@
 }
 .dc-table__cell_first-row {
     border-top: none;
-}
-
-.dc-table-cell_destruct:hover {
-    background-color: #E95420;
-}
-.dc-table-cell_construct:hover {
-    background-color: darkslategray;
 }
 
 .dc-table-cell_center {
